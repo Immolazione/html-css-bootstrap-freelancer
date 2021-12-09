@@ -23,9 +23,8 @@ header > .spotlight {
     height: 500px;
 }
 
-main > .row > .col {
+main > .row > div[class^=col] {
     height: 250px;
-    width: 300px;
 }
 
 main > .about, main > .contact-me {
