@@ -1,0 +1,12 @@
+header > .row {
+    height: 100px;
+    margin: 0;
+}
+
+header > .row > .col {
+    height: fit-content;
+}
+
+header > .spotlight {
+    height: 500px;
+}
