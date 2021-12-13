@@ -7,3 +7,7 @@
 * {
     border: 1px dashed black;
 }
+
+#jumbotron {
+    min-height: 200px;
+}
