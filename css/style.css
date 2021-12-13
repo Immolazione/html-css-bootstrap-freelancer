@@ -16,9 +16,9 @@
     background-color: var(--darker-blue);
 }
 
-* {
+/* * {
     border: 1px dashed black;
-}
+} */
 
 /* header > .bg-blue > .container > .row {
     height: 60px;
@@ -53,4 +53,8 @@
 .star-separator.star-separator-dark::before,
 .star-separator.star-separator-dark::after {
     background-color: #000;
+}
+
+.form-c {
+    border-width: 0 0 2px 0;
 }

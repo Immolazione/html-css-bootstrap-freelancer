@@ -42,8 +42,8 @@
     <!-- MAIN -->
     <main>
         <!-- PORTFOLIO SECTION -->
-        <section id="portfolio">
-            <div class="row mb-3">
+        <section id="portfolio" class="p-5">
+            <div class="row">
                 <div class="col">
                     <h1 class="text-center">PORTFOLIO</h1>
                     <div class="star-separator star-separator-dark">
@@ -52,7 +52,7 @@
                 </div>
             </div>
             <div class="container-fluid">
-                <div class="row gy-3 mb-3">
+                <div class="row gy-3">
                     <img class="col-12 col-md-6 col-lg-4" src="img/cabin.png" alt="cabin">
                     <img class="col-12 col-md-6 col-lg-4" src="img/cake.png" alt="cake">
                     <img class="col-12 col-md-6 col-lg-4" src="img/circus.png" alt="circus">
@@ -62,7 +62,7 @@
             </div>
         </section>
         <!-- ABOUT SECTION -->
-        <section id="about" class="bg-dgreen p-5 text-white mb-3">
+        <section id="about" class="bg-dgreen p-5 text-white">
             <div class="container text-center">
                 <h1>About</h1>
                 <div class="star-separator">
@@ -78,10 +78,36 @@
             </div>
         </section>
         <!-- CONTACT ME SECTION -->
-        <section class="contact">
-            <h1 class="uppercase">contact me</h1>
+        <section class="contact container p-5">
+            <h1 class="text-uppercase text-center">contact me</h1>
+            <div class="star-separator star-separator-dark">
+                <i class="bi bi-star-fill dark"></i>
+            </div>
+            <div class="row">
+                <div class="col-10 offset-1"></div>
+                <form>
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" class="form-c" name="name">
+                    </div>
+                    <div>
+                        <label for="email">Email Address</label>
+                        <input type="email" class="form-c" name="email">
+                    </div>
+                    <div>
+                        <label for="tel">Phone Number</label>
+                        <input type="tel" class="form-c" name="phone_number">
+                    </div>
+                    <div>
+                        <label for="message">Message</label>
+                        <textarea name="text-area" class="form-c"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn bg-dgreen text-white">Submit</button>
+                    </div>
+                </form>
+            </div>
         </section>
-
     </main>
     <!-- FOOTER -->
     <footer>
