@@ -4,10 +4,45 @@
     --dark-green: #1ABC9C;
 }
 
+.bg-dgreen {
+    background-color: var(--dark-green);
+}
+
+.bg-blue {
+    background-color: var(--dark-blue);
+}
+
+.bg-dblue {
+    background-color: var(--darker-blue);
+}
+
 * {
     border: 1px dashed black;
 }
 
-#jumbotron {
-    min-height: 200px;
+header > .bg-blue > .container > .row {
+    height: 60px;
+}
+
+#jumbotron > img {
+    width: 250px;
+}
+
+.bi-star-fill {
+    font-size: 24px;
+}
+
+.star-separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.star-separator::before, .star-separator::after {
+    content: "";
+    background-color: #fff;
+    /* display: inline-block; */
+    height: 2px;
+    width: 100px;
+    margin: 0 20px;
 }
