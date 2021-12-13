@@ -1,48 +1,9 @@
+:root {
+    --dark-blue: #2C3E50;
+    --darker-blue: #3A546D;
+    --dark-green: #1ABC9C;
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-@media screen and (min-width: 576px) {
-    .container-80 {
-        width: 80%;
-        margin: auto;
-    }
-}
-
-.container-70 {
-    width: 70%;
-    margin: auto;
-}
-
-header > .row {
-    height: 100px;
-    margin: 0;
-}
-
-header > .row .col {
-    height: fit-content;
-}
-
-header > .spotlight {
-    height: 500px;
-}
-
-main > .row > div[class^=col] {
-    height: 250px;
-}
-
-main > .about, main > .contact-me {
-    height: 500px;
-}
-
-footer > .copyright {
-    height: 100px;
-    margin: 0;
-}
-
-footer > .location {
-    height: 500px;
+    border: 1px dashed black;
 }
