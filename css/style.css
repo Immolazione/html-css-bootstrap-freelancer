@@ -24,9 +24,9 @@
     border: 1px dashed black;
 } */
 
-/* header > .bg-blue > .container > .row {
-    height: 60px;
-} */
+header > .bg-blue > .container > .row {
+    min-height: 60px;
+}
 
 #jumbotron > img {
     width: 250px;
@@ -71,4 +71,12 @@
     justify-content: center; 
     align-items: center;
     border-radius: 50%;
+}
+
+.footer-top > .container > .row {
+    min-height: 200px;
+}
+
+.footer-bottom {
+    min-height: 50px;
 }
