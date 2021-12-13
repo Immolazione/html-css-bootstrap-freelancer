@@ -20,9 +20,9 @@
     border: 1px dashed black;
 }
 
-header > .bg-blue > .container > .row {
+/* header > .bg-blue > .container > .row {
     height: 60px;
-}
+} */
 
 #jumbotron > img {
     width: 250px;
@@ -30,6 +30,10 @@ header > .bg-blue > .container > .row {
 
 .bi-star-fill {
     font-size: 24px;
+}
+
+.bi-star-fill.dark {
+    color: black;
 }
 
 .star-separator {
@@ -41,8 +45,12 @@ header > .bg-blue > .container > .row {
 .star-separator::before, .star-separator::after {
     content: "";
     background-color: #fff;
-    /* display: inline-block; */
     height: 2px;
     width: 100px;
     margin: 0 20px;
+}
+
+.star-separator.star-separator-dark::before,
+.star-separator.star-separator-dark::after {
+    background-color: #000;
 }
