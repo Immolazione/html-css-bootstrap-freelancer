@@ -16,6 +16,10 @@
     background-color: var(--darker-blue);
 }
 
+.text-dgreen {
+    color: var(--dark-green);
+}
+
 /* * {
     border: 1px dashed black;
 } */
@@ -57,4 +61,14 @@
 
 .form-c {
     border-width: 0 0 2px 0;
+}
+
+.footer-top .col-10 > div > i {
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    border-radius: 50%;
 }
